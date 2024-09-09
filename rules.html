@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="./images/bg-min.png" as="image">
+  <link rel="preload" href="./images/logo-title.png" as="image">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <link rel="apple-touch-icon" href="./favicon.png">
+  <script src="./js/link_alert.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <title>各種ご案内 - 星華展</title>
+</head>
+
+<body style="background-image: url(./images/bg-min.png);">
+  <main>
+    <section class="box top" data-section-name="top">
+      <div id="top-title">
+        <div>
+          <h1><img src="./images/logo-title.png" alt="星華展タイトル" id="event-logo"></h1>
+        </div>
+        <p class="b-bg">このページでは、当企画への参加において<br> 重要な事項を記載しております。<br>
+          <span class="bold">必ずお読みになったうえで、<br> 参加申請のフォームへ記入をお願いします。</span>
+        </p>
+      </div>
+      <div class="scr serif">
+        <span>SCROLL</span>
+      </div>
+    </section>
+    <section class="box attention" data-section-name="attention">
+      <h2>Attention - RP上の注意事項</h2>
+      <div class="ltr">
+        <details>
+          <summary>オークションを楽しむ場であると意識する</summary>
+          <p>通常の指名販売(Skebなど)の方式を取らずにこうした場を設けているのは「場を楽しんでいただく」ためもあります。<br> そのため、過度の独占やオークションの基本原理を揺るがすなどの行為(入札開始1分で天井入札など)は非推奨としています。<br> これは皆様の良識に委ねるところが大きいため、企画を成功させるためにもご協力くださいませ。<br> 分からないことや不安なことがあれば随時ご質問ください。</p>
+        </details>
+        <details>
+          <summary>トラブルを起こさない</summary>
+          <p>この展示会は多数の善意や欲望を元に作られています。<br> 敷かれたルールも絶対的に全てのトラブルを未然に防ぐことはできないため、トラブルを起こさないことを念頭に行動ください。<br> 特にリアルマネーのやり取りやキャラクター要素の扱いなど、トラブルになりやすい要素を多く孕んでおりますので、何卒ご協力をお願いします。<br> また、そうした状況への対処のために運営判断で妖精(≒保安係)を呼び、オークション終了まで隔離……という可能性もございます。<br> あらかじめご了承ください。</p>
+        </details>
+        <details>
+          <summary>絵の批判をしない</summary>
+          <p>登壇するキャラクター「星の子」達は特別な存在です。そのため、当企画の会場では基本的に、星の子に対しての批判の一切(※絵の内容に批判を加えること)を禁じます。<br> 「購買意欲を削ぐ発言」として運営が立ち行かなくなることもありますので、厳しめの措置をとる可能性があります。<br> ご注意ください。</p>
+        </details>
+        <details>
+          <summary>罵倒・威圧や卑猥な言動は慎む</summary>
+          <p>他者への罵倒・威圧、また卑猥な発言は紳士淑女としてお控え下さい(ゾーニング休憩室を設置しておりますので、必要に応じてそちらをお使いください)。<br> また、当企画では皆様に安心して遊んで頂くため、過度な露出(R18)は控えさせて頂いています。そちらの方面をお望みのお客様につきましては、保護手続き後にご検討ください。<br> 裸体の販売はありません。別途、追加依頼などをご活用ください。</p>
+        </details>
+        <details class="wide">
+          <summary>進行の妨げにならない</summary>
+          <p>飲食物の販売や、著しい長文など。<br> この会場はあくまで「星の子保護のためのオークション」を楽しむ場であり、RPによる交流を主目的とした場所ではありません。<br> 舞台チャンネルでは、オークションの進行を妨げないようご協力をお願いします。<br> どうしても長文で感想を書きたいという方は、「舞台」以外のチャンネルをご活用下さい。<br> どうしても1人1人に長文を認めたい!　……という熱意に溢れる方は、匿名箱へご要望をお送りいただければと思います。</p>
+        </details>
+      </div>
+    </section>
+    <section class="box auction" data-section-name="auction">
+      <h2>Auction - オークションの形式</h2>
+      <div class="ltr">
+        <details>
+          <summary>ロール別名称</summary>
+          <p>当企画では、各ロールに対し下記の通りの名称を用いています。
+          <ul>
+            <li>星の子：販売されるキャラクター</li>
+            <li>寄贈者：星の子を販売にかけるクリエイター</li>
+            <li>斡旋者：代理で星の子をアピール・場を取り仕切る人</li>
+            <li>保護者：星の子に入札し購入する買い手</li>
+          </ul>
+          </p>
+        </details>
+        <details>
+          <summary>通貨「Sc」について</summary>
+          <p>オークションで入札する際は、日本円ではなく「Sc(SilverCoin / 銀貨)」という通貨単位を使用します。<br> 1円につき1万Scのため、<br> 5000円=5000万Sc、1万円=1億Sc……という計算になります。</p>
+        </details>
+        <details>
+          <summary>有効時間</summary>
+          <p>舞台でのRPが終了する時刻に入札を開始します。<br> 入札額が上限かに関わらず入札は翌日の21時に締め切られ、落札者の決定やVIPROOMへの案内を行います。</p>
+        </details>
+        <details>
+          <summary>入札額・天井抽選権</summary>
+          <p>開始額は5000万Sc(5000円)、上限は2億Sc(2万円)です。<br> 吊り上げ金額は100万Sc～5000万Scの間で有効とします。<br> 上限金額にて複数の入札があった場合、スタッフ(主催陣)による抽選によって落札者が決定します。</p>
+          <p>抽選権は保護者お1人につき1回までとなります。<br> 星の子を1体競り落とした段階で抽選権を消費し、それ以降のオークションに参加した際に上限額を入札しても抽選から除外されます。</p>
+        </details>
+      </div>
+    </section>
+    <section class="box links" data-section-name="links">
+      <h2>Links - リンク集</h2>
+      <ul id="links-btn">
+        <a href="javascript:void(0)" onclick="judgeNow()" class="btn">
+          <li>会場(Discordサーバー)</li>
+        </a>
+        <a href="https://forms.gle/1rx7oxmsudTAGmwY7" target="_blank" class="btn">
+          <li>参加申請フォーム</li>
+        </a><span class="small">保護者(買い手)を希望の方は必ず<br>記入、送信をお願いいたします。</span>
+        <a href="https://docs.google.com/spreadsheets/d/1V7k9Bhqm36ER-40upV2CkKQeppZ5R3hfvfACDYYI3nY/edit#gid=1705970756" target="_blank" class="btn">
+          <li>スプレッドシート<br>(保護者の方向け)</li>
+        </a><span class="small">概要や取引の方法、<br>質疑応答を掲載しております。</span>
+      </ul>
+    </section>
+  </main>
+  <footer id="footer">
+    <a href="./index.html"><img src="./images/logo-foundation.png" alt="フッターロゴ(メシエ財団)" id="footer-logo">
+      <p class="footer-text">&copy; L0cul1t3/ロークライト</p>
+    </a>
+  </footer>
+  <script src="./js/rm_prohibited.js"></script>
+  <script src="./js/mobile_judge.js"></script>
+</body>
+
+</html>
